@@ -22,7 +22,7 @@
               colors: {
                 clifford: '#da373d',
                 primary: '#ABEF5F',
-              }
+              }             
             }
           }
         }
@@ -54,7 +54,7 @@
                   <i class="hidden md:block fa-solid fa-magnifying-glass rounded-full bg-white shadow"></i>
                   <i class="hidden md:block fa-solid fa-cart-shopping rounded-full bg-white shadow"></i>
                   
-                  <button class="hidden md:block btn bg-primary">Book Consult <i class="fa-solid fa-arrow-right-long -rotate-45 bg-[#1C1C1C] rounded-full text-white"></i></button>
+                  <button class="hidden md:block btn bg-primary hover:bg-[#acef5fa4]">Book Consult <i class="fa-solid fa-arrow-right-long -rotate-45 bg-[#1C1C1C] rounded-full text-white "></i></button>
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
                         <i class="fa-solid fa-bars"></i>
@@ -80,7 +80,7 @@
           <p class="text-center">
             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
           </p>
-          <button class="btn bg-primary ">View Details<i class="fa-solid fa-arrow-right-long -rotate-45 bg-green-400 rounded-full"></i></button>
+          <button class="btn bg-primary hover:bg-[#acef5fa4] w-80 lg:w-48 rounded-[32px]">View Details<i class="fa-solid fa-arrow-right-long -rotate-45 bg-green-400 rounded-full"></i></button>
          </div>
      </header>
 
@@ -173,8 +173,56 @@
           </div>
        </div>
      </main>
+     <!-- Let’s Discuss Next Project section -->
+
+      <section class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover min-h-screen">
+        <div class=" flex justify-center flex-col items-center">
+                 <!-- Let’s Discuss text -->
+      <div class="text-center flex flex-col items-center space-y-4 ">
+        <button class="btn hover:bg-[#acef5fa4] rounded-3xl bg-primary mt-24"><i class="fa-solid fa-arrow-right-long"></i>Let’s Connect</button>
+        <h2 class="text-4xl font-bold">Let’s Discuss Next Project</h2>
+        <p>
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+      </div>
+      <!-- Let’s Discuss form -->
+        <div class="max-w-6xl mx-auto mt-[32px] px-6 lg:px-32 grid grid-cols-2 grid-rows-8 md:grid-rows-6 gap-5">          
+          <input type="text" placeholder="First Name*" class="input input-bordered w-full rounded-[64px] col-span-2 md:col-span-1 border-none"/>   
+
+          <input type="text" placeholder="Last Name*" class="input input-bordered w-full rounded-[64px] col-span-2 md:col-span-1  border-none"/>  
+
+          <input type="text" placeholder="Phone Number*" class="input input-bordered w-full rounded-[64px] col-span-2 md:col-span-1 border-none  "/>   
+
+          <input type="text" placeholder="Email Number*" class="input input-bordered w-full rounded-[64px] col-span-2 md:col-span-1 border-none outline-none   "/>  
+
+          <textarea type="text" placeholder="Write your message here" class="textarea textarea-bordered w-full rounded-[32px] col-span-2 row-span-3 "></textarea>  
+          
+          <button class="btn bg-[#acef5f] hover:bg-[#acef5fa4] text-xl text-[#1C1C1C] font-bold rounded-[32px] col-span-2">Send Mail<i class="fa-solid fa-arrow-right-long -rotate-45 bg-[#1C1C1C] rounded-full text-white "></i></button>
+       </div>
+        </div>
+      </section>
 
      <!-- footer section-->
-     <footer></footer>
+     <footer class="bg-[#1C1C1C]">
+      <div class="py-24">
+              <!-- Title -->
+       <div class="flex justify-center flex-col items-center space-y-8 mb-12">
+        <h3 class="text-white text-3xl"><i class=" text-black fa-solid fa-arrow-right-long -rotate-45 bg-primary rounded-full shadow w-7 h-7 "></i>Rinterio</h3>
+        <p class="text-white text-center">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+       </div>
+       <div class="w-9/12 mx-auto text-white grid gap-6 text-center md:grid-cols-5">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Portfolio</a>
+        <a href="">Blogs</a>
+        <a href="">Contact Us</a>
+       </div>
+       <div class="flex justify-center mt-12">
+        <button class=" btn bg-primary hover:bg-[#acef5fa4] text-xl border-none font-bold rounded-[32px]">Book Consult <i class="fa-solid fa-arrow-right-long -rotate-45 bg-[#1C1C1C] rounded-full text-white "></i></button>
+       </div>
+      </div>
+     </footer>
 </body>
 </html>
