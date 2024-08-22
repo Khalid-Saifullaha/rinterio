@@ -51,11 +51,12 @@
                   </ul>
                 </div>
                 <div class="navbar-end gap-4">
-                  <i class="fa-solid fa-magnifying-glass rounded-full bg-white shadow hidden lg:block"></i>
-                  <i class="fa-solid fa-cart-shopping rounded-full bg-white shadow hidden lg:block"></i>
-                  <a class=" btn bg-primary hidden lg:block">Book Consult<i class="fa-solid fa-arrow-right-long -rotate-45 bg-[#1C1C1C] rounded-full text-white"></i></a>
+                  <i class="hidden md:block fa-solid fa-magnifying-glass rounded-full bg-white shadow"></i>
+                  <i class="hidden md:block fa-solid fa-cart-shopping rounded-full bg-white shadow"></i>
+                  
+                  <button class="hidden md:block btn bg-primary">Book Consult <i class="fa-solid fa-arrow-right-long -rotate-45 bg-[#1C1C1C] rounded-full text-white"></i></button>
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                     <ul
@@ -84,7 +85,58 @@
      </header>
 
      <!-- main section -->
-     <main></main>
+     <main class=" bg-[#F4F4F4]">
+      <div class="hidden lg:block"><img class="w- ml-10 mt-10" src="./assets/Vector.png" alt=""></div>
+      <!-- We design thoughtful -->
+    <div class="w-11/12 mx-auto  lg:flex justify-between mt-6 p lg:px-24">
+      <!-- <img class="w- ml-10 mt-10" src="./assets/Vector.png" alt=""> -->
+        <!-- We design text -->
+         <div class="space-y-6 lg:w-1/2 text-center lg:text-left">
+          
+          <button class="btn bg-white rounded-3xl"><i class="fa-solid fa-arrow-right-long"></i>About Us</button>
+          <h2 class="text-4xl  font-bold">We design thoughtful, liveable spaces</h2>
+          <p>
+            The barn house captivates with its blend of rustic charm and 
+            modern sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+          <!-- card 1 -->
+           <div class="bg-[#FFFFFF] flex ">
+            <!-- card 1 image -->
+             <div class="w-full p-7">
+              <img src="./assets/commercial.png" alt="">
+             </div>
+             <!-- card 1 text -->
+              <div class="p-7">
+                <h4 class="font-bold">Commercial</h4>
+                <p>
+                  The barn house captivates with its blend of rustic charm and modern.
+                </p>
+              </div>
+           </div>
+          <!-- card 2 -->
+           <div class="bg-[#FFFFFF] flex items-start ">
+            <!-- card 2 image -->
+             <div class="w-full p-7">
+              <img src="./assets/residential.png" alt="">
+             </div>
+             <!-- card 2 text -->
+              <div class="p-7 space-y-6">
+                <h4 class="font-bold">Residential</h4>
+                <p>
+                  The barn house captivates with its blend of rustic charm and modern.
+                </p>
+              </div>
+           </div>
+         </div>
+         <!-- We design image -->
+          <div>
+            <img class="w-full" src="./assets/Rectangle.png" alt="">
+          </div>
+      </div>
+
+
+       </div>
+     </main>
 
      <!-- footer section-->
      <footer></footer>
